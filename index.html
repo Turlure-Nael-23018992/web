@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/okalage.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="app.js" defer></script>
+    <title>Le O'Kalage du Brody</title>
+</head>
+<!-- https://www.youtube.com/watch?v=8Qc29mubbzk;autoplay=1  -->
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="./img/okalage.png" alt="logo"></a>
+            <h2>O'Kalage du Brody</h2>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="./html/carte.html">La Karte du brozer</a></li>
+                <li> <a href="./html/aboutUs.html">A propos</a></li>
+                <li> <a href="./html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+       <h1>Présentation du snack les brozer</h1> 
+        <div class="carousel-container">
+            <button class="left" onclick="DivPlus(-1)">&#10094;</button>
+            <img class="mySlides" src="./img/mortadon.jpg">
+            <img class="mySlides" src="./img/brazil.jpeg">
+            <img class="mySlides" src="./img/mortadouble.jpg">
+            <img class="mySlides" src="./img/mortazbi.jpg">
+            <img class="mySlides" src="./img/morvier.png">
+            <button class="right" onclick="DivPlus(+1)">&#10095;</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; All rights reserved 2023</p>
+    </footer>
+</body>
+</html>
