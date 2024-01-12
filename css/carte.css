@@ -14,3 +14,17 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 700px) {
+    .carte-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .carte-container img:hover {
+        transform: none;
+    }
+}
